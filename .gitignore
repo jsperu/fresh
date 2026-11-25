@@ -1,0 +1,8 @@
+node_modules/
+data/
+.env
+config/selectors.json
+*.log
+playwright-report/
+.DS_Store
+*.traineddata

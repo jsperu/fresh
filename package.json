@@ -1,0 +1,29 @@
+{
+  "name": "notes-de-frais",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ingestion de tickets (photo iPhone), compression, OCR et saisie automatique sur le site de notes de frais via Playwright.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "init": "node src/cli.js init",
+    "serve": "node src/cli.js serve",
+    "ingest": "node src/cli.js ingest",
+    "list": "node src/cli.js list",
+    "approve": "node src/cli.js approve",
+    "reject": "node src/cli.js reject",
+    "show": "node src/cli.js show",
+    "submit": "node src/cli.js submit",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "multer": "^2.5.0",
+    "playwright": "^1.48.2",
+    "sharp": "^0.33.5",
+    "tesseract.js": "^5.1.1"
+  }
+}
