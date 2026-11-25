@@ -1,0 +1,21 @@
+{
+  "_comment": "Copie ce fichier en config/selectors.json et adapte les sélecteurs CSS à ton site de notes de frais. Inspecte les pages avec les outils de développement du navigateur pour trouver les bons sélecteurs.",
+  "loginPath": "/login",
+  "username": "#username",
+  "password": "#password",
+  "loginSubmit": "button[type=\"submit\"]",
+  "loggedInIndicator": "text=Déconnexion",
+  "newExpensePath": "/notes-de-frais/nouvelle",
+  "fields": {
+    "date": "#date",
+    "amount": "#montant-ttc",
+    "merchant": "#commercant",
+    "category": "#categorie",
+    "comment": "#commentaire"
+  },
+  "fileInput": "#justificatif",
+  "submitExpense": "button[type=\"submit\"]",
+  "successIndicator": ".message-succes",
+  "reference": ".numero-note-de-frais",
+  "decimalSeparator": ","
+}

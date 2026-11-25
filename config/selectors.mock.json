@@ -1,0 +1,21 @@
+{
+  "_comment": "Sélecteurs pour le FAUX site de test (scripts/mock-site.mjs, port 4799). Copie vers config/selectors.json uniquement pour tester, puis restaure ton vrai fichier.",
+  "loginPath": "/login",
+  "username": "#u",
+  "password": "#p",
+  "loginSubmit": "#login-btn",
+  "loggedInIndicator": "#logout",
+  "newExpensePath": "/expense/new",
+  "fields": {
+    "date": "#date",
+    "amount": "#amount",
+    "merchant": "#merchant",
+    "category": "#cat",
+    "comment": "#comment"
+  },
+  "fileInput": "#file",
+  "submitExpense": "#submit",
+  "successIndicator": ".ok",
+  "reference": ".ref",
+  "decimalSeparator": ","
+}
